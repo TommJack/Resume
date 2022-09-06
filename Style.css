@@ -1,0 +1,161 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #c29bb7;
+}
+
+.container{
+    max-width: 750px;
+    margin: auto;
+}
+
+/* Info */
+
+img{
+    width: 200px;
+    height: 250px;
+    border-radius: 25px;
+}
+
+.info{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+@media (max-width:750px){
+    .info{
+        display: block;
+        text-align: center;
+    }
+}
+
+
+.info_text{
+    margin-left: 15px;
+}
+
+/* Social */
+
+a{
+    color: brown;
+    text-transform: inherit;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color: #e9d1a2;
+    text-decoration: underline;
+}
+
+a:visited{ 
+    color: black;
+}
+
+
+/* Hoby */
+
+.hoby{
+    border: 2px solid black;
+    border-radius: 15px;
+
+    background: #eeafa6;
+}
+
+.hoby h2{
+    padding-left: 15px;
+}
+
+li{
+    list-style: none;
+    margin: 5px;
+}
+
+/* Table */
+
+.table{
+    border: 2px solid black;
+    border-radius: 15px;
+    background: #1e728e;
+
+    margin-top: 10px;
+}
+
+table{
+    width: 100%;
+}
+
+.table h2{
+    padding-left: 15px;
+}
+
+.table_text{
+    padding: 10px;
+}
+
+/* Form */
+
+.formm{
+  display: flex;  
+}
+
+
+
+.form{
+    text-align: center;
+    margin: 20px;
+}
+
+.form_gr{
+    margin-top: 10px;
+}
+
+.form_gr label{
+    display: block;
+}
+
+.form_gr input,
+.form_gr textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 15px 0 10px;
+
+    outline: none;
+    font-family: inherit;
+    background: transparent;
+}
+
+.formm > .form_gr{
+    width: 50%;
+    
+}
+
+.formm > .form_gr:first-child{
+    margin-right: 20px
+}
+
+
+.btn{
+    padding: 10px;
+    background: black;
+    color: white;
+    font-family: inherit;
+    border: none;
+
+    cursor: pointer;
+
+    margin: 5px;
+}
+
+.btn:hover{
+    background: rgb(14, 71, 226);
+    color: white;
+    
+
+    transition: .2s;
+}
+
+
+
+
